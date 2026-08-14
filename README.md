@@ -28,9 +28,20 @@
 
 ```
 gk1200-repair/
-├─ SKILL.md     # skill 入口：触发描述 + 快查表 + 主题索引 + 看图规则
-├─ manual.md    # 手册全文，图链接指向整页图
-└─ pages/       # 184 页整页图（WebP）
+├─ SKILL.md               # skill 入口：触发描述 + 快查表 + 主题索引 + 看图规则
+├─ manual.md              # 维修手册全文（184 页扫描 OCR），图链接指向整页图
+├─ README.md              # 中文说明（本文件）
+├─ README.en.md           # English readme
+├─ LICENSE                # MIT
+├─ .gitignore
+├─ pages/                 # 184 页整页图（page-0001 ~ page-0184.webp）
+├─ source-files/          # 原厂售后资料包原件（PDF / Word / PPT）
+│  └─ GK1200售后资料/     # 维修手册原版 PDF、BX1200 分章 Word（26 章）、使用说明书、
+│                        #   配件目录、部件安装副页、电喷规范、售后/维修培训 PPT 等
+└─ supplementary/         # 补充资料：原件副本 + 后补独立文档
+   ├─ kdocs-cf0tJzMXNGfm/ # 《禅与高金 GK1200 保养维修改装指南》截图（kdocs-p1 ~ p13.png）
+   ├─ wiring-diagrams/    # 电气布线 / ECU 接插件图
+   └─ （使用说明书、电喷规范、防盗匹配、部件安装副页、配件目录、培训 PPT 等原件副本）
 ```
 
 ## 安装

@@ -19,6 +19,25 @@ metadata:
 
 ## 资源位置（相对本 skill 基目录）
 > 加载本 skill 时开头会提示「Base directory for this skill: <绝对路径>」，记为 **<BASE>**。以下文件都在 <BASE> 下；读取或给用户路径时用 <BASE> 拼成绝对路径（装在哪、clone 到哪都适用，**勿写死任何人的家目录**）。
+
+**<BASE> 目录结构总览**：
+
+```text
+gk1200-repair/                        （即 <BASE>）
+├─ SKILL.md                           # 本文件：触发描述 + 快查表 + 主题索引 + 看图规则
+├─ manual.md                          # 维修手册全文（184 页扫描 OCR），内链 pages/page-NNNN.webp
+├─ README.md / README.en.md           # 中英文项目说明
+├─ LICENSE / .gitignore
+├─ pages/                             # 184 页整页图（page-0001 ~ page-0184.webp）
+├─ source-files/                      # 原厂售后资料包原件（PDF / Word / PPT）
+│  └─ GK1200售后资料/                 # 维修手册原版 PDF、BX1200 维修手册分章 .doc/.docx（26 章）、
+│                                     #   使用说明书、配件目录、部件安装副页、电喷规范、售后/维修培训 PPT 等
+└─ supplementary/                     # 补充资料：与 source-files 重叠的原件副本 + 后补的独立文档
+   ├─ kdocs-cf0tJzMXNGfm/             # 《禅与高金 GK1200 保养维修改装指南》截图（kdocs-p1 ~ p13.png）
+   ├─ wiring-diagrams/                # 电气布线 / ECU 接插件图（ecu-pinout-*.jpg）
+   └─ （使用说明书、电喷规范、防盗匹配、部件安装副页、配件目录、培训 PPT 等原件副本）
+```
+
 - 全文：`<BASE>/manual.md`
 - 整页图：`<BASE>/pages/page-NNNN.webp`（每页一张完整图；**NNNN 是扫描序号，不等于书内印刷页码**，已去碎片化）
 - manual.md 内图链接是相对的 `pages/page-NNNN.webp`；引用/给用户时**补成 `<BASE>/pages/…`**。manual.md 里"第N页"字样也按扫描序号生成，**别直接当书页号报给用户**。
