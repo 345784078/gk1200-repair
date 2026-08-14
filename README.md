@@ -4,7 +4,7 @@
 
 基于原作者内容，补充了部分文件
 
-**高金 GK1200（手册内亦称 BX500 / BX1200）摩托车维修手册的查询助手**
+**高金 GK1200 摩托车维修手册的查询助手**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-d97757.svg)](SKILL.md)
