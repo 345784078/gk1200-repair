@@ -2,7 +2,7 @@
 
 # GK1200 Service Manual Lookup Skill
 
-**A lookup assistant for the Gaojin GK1200 (also called Shiguang 1200) motorcycle service manual**
+**A lookup assistant for the Gaojin GK1200 Kaiwei Shiguang 1200 motorcycle service manual**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-d97757.svg)](SKILL.md)

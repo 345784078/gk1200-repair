@@ -4,7 +4,7 @@
 
 基于原作者内容，补充了部分文件
 
-**高金 GK1200（亦称时光 1200）摩托车维修手册的查询助手**
+**高金 GK1200 凯威 时光1200 摩托车维修手册的查询助手**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-d97757.svg)](SKILL.md)
